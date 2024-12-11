@@ -1,0 +1,26 @@
+/*
+ * @author John Renzel M. Fangon 
+ */ CC2 1B
+
+public class LaboratoryChallenge2 {
+
+    public static void main(String[] args) {
+
+        // Step 1: Define the values for length and width
+        double length = 10.0; // Example value for length in meters
+        double width = 5.0;   // Example value for width in meters.
+
+        // Step 2: Calculate the area of the rectangle
+        double area = length * width;
+
+        // Step 3: Calculate the perimeter of the rectangle
+        double perimeter = 2 * (length + width);
+
+        // Step 4: Display the results
+        System.out.println("Garden Dimensions:");
+        System.out.println("Length: " + length + " meters");
+        System.out.println("Width: " + width + " meters");
+        System.out.println("Area: " + area + " square meters");
+        System.out.println("Perimeter: " + perimeter + " meters");
+    }
+}
